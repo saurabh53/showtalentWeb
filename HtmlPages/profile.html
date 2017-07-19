@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-cookies.js"></script>
+<script type="text/javascript" src = "../AngularFiles/main.js"></script>
+
+<link rel = "stylesheet" type = "text/css" href = "../CssFiles/main.css"/>
+<base href="/">
+</head>
+<body ng-app="myApp" ng-controller="profileController">
+
+
+
+<button type="button" class="btn btn-primary" >Primary</button>
+
+
+<p>The HTML shown in the ng-view directive are written in the template property of the $routeProvider.when method.</p>
+
+
+<ul>
+<li>{{list}}</li>
+
+
+</ul>
+
+<div ng-view></div>
+
+
+</body>
+</html>

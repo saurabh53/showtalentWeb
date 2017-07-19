@@ -1,0 +1,68 @@
+$navbar-margin-bottom : 0px;
+$btn-default-bg : #111;
+$btn-default-color: #36D1DC;
+$padding-base-vertical : 13px;
+$padding-base-horizontal : 30px;
+$font-size-base : 17px;
+@import "bootstrap";
+
+
+@mixin bg-gradient()
+{
+background: #FFFAF0; 
+}
+
+
+
+#top{
+	height : 100vh;
+	width : 100vw;
+	@include bg-gradient();
+}
+
+
+#bottom
+{
+     height : 5em;
+     width : 100%;
+	background-color: #1a1a1a;
+}
+
+.Form
+{
+	height:25em;
+	width : 30%;
+	margin-left : 60%;
+	margin-top : 7%;
+	background-color: #1a1a1a;
+	position:absolute;
+}
+#horizontal
+{
+    color: #111;
+	margin-top : 10%;
+
+}
+
+.InForm
+{
+    position:absolute;
+	height:24em;
+	width : 96%;
+	margin-left : 2%;
+	margin-top : 2%;
+	@include bg-gradient(); 
+}
+
+#register
+{
+	position:absolute;
+	margin-top : 12%;
+	margin-left: 25%;
+	color : #1a1a1a;
+}
+
+#signin
+{
+	margin-top: 14%;
+}
